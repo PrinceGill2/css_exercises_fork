@@ -5,7 +5,30 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.header { 
+  display: flex
+
+}
+
+.left-links { 
+  display: flex;
+}
+
+.right-links { 
+  display: flex;
+}
+
+.footer { 
+  display: flex;
+}
+
+
 
 img {
   width: 600px;
@@ -23,4 +46,13 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+a { 
+  text-decoration: none;
+}
+
+ul { 
+  list-style-type: none;
+  padding: 0;
 }
