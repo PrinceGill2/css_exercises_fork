@@ -20,6 +20,40 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+}
+
+.topleft {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: 176px;
+}
+
+.content { 
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.bottom {
+  display: flex;
+  padding: 16px;
+}
+
+.header { 
+  height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2px;
+    font-weight: bold;
 }
 
 .icon {
